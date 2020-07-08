@@ -474,4 +474,7 @@ module.exports = {
   },
   corePlugins: {},
   plugins: [],
+  purge:[
+    './public/**/*.html'
+  ]
 }
